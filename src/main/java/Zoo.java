@@ -5,45 +5,28 @@ public class Zoo {
 
     public static void main (String[]arg){
 
-        Animal animal = Animal.BIRD;
-        for (Animal element: Animal.values()){System.out.println(element);}
-
-//
-//       System.out.println(animal.getName());
-//       System.out.println(animal.getIdAnimal());
 
 
 
 
 
 
-        List<String> bird = new ArrayList<>();
-        bird.add("eagle");
-        bird.add("crow");
-        bird.add("sova");
-
-        System.out.println("In our zoo you can see " + bird  );
-
-        Set<String> fish = new HashSet<>();
-        fish.add("salmon");
-        fish.add("som");
-        fish.add("shark");
-
-        System.out.println(fish);
-
-        Map<String,String> beast = new LinkedHashMap<>();
-        beast.put("bear2","grizly");
-        beast.put("bear2","russian");
-        beast.put("wolf1","grey");
-        beast.put("wolf2","arctic");
-
-        System.out.println(beast);
+        int num0 = 0;
+        int num1 = 1;
+        int num2;
 
 
+        System.out.print(" "+ num0 );
+        System.out.print(" "+ num1+" "  );
+        for(int i = 3; i <= 10; i++){
+            num2 = num0 + num1;
 
-        animal.inforationFish();
-        animal.inforationBird();
-        animal.inforationBeast();
+
+            System.out.print(num2 + " ");
+
+            num0 = num1;
+            num1 = num2;
+        }
 
 
     }
