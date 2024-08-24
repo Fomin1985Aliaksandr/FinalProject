@@ -1,1 +1,0 @@
-{"uuid":"dd707b4b-bb59-41c4-a7ab-30809d840be0","name":"Tests.TextInputTest","children":["0d1fe794-a2bb-4fac-ab7b-9d98fac7d91e"],"befores":[{"name":"prepare","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1723521254590,"stop":1723521259444}],"afters":[],"start":1723521254538,"stop":1723521261220}
