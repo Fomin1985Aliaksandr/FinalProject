@@ -1,0 +1,158 @@
+[1723971135.967][INFO]: Starting ChromeDriver 127.0.6533.119 (bdef6783a05f0b3f885591e7d2c7b2aec1a89dea-refs/branch-heads/6533@{#1999}) on port 16028
+[1723971135.968][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1723971136.256][INFO]: [8e3e4afbb2082c4d177324db37c08cc4] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--disable-search-engine-choice-screen", "--unsafely-disable-devtools-self-xss-warnings", "--window-size=1300,500" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Program Files\\Java\\avtotest\\untitled5\\build\\downloads\\1723971135354_11612_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "profile.password_manager_enabled": false,
+               "profile.password_manager_leak_detection": false,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1723971136.256][INFO]: Browser search. Trying... C:\Users\newus\.cache\selenium\chromedriver\win64\127.0.6533.119\chrome.exe
+[1723971136.256][INFO]: Browser search. Trying... C:\Users\newus\.cache\selenium\chromedriver\win64\127.0.6533.119\chrome.exe
+[1723971136.256][INFO]: Browser search. Trying... C:\Users\newus\.cache\selenium\chromedriver\win64\127.0.6533.119\chromium.exe
+[1723971136.260][INFO]: Browser search. Trying... C:\Users\newus\AppData\Local\Google\Chrome\Application\chrome.exe
+[1723971136.260][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1723971136.260][INFO]: Browser search. Trying... C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1723971136.260][INFO]: Browser search. Found at  C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1723971136.262][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Program Files\\Java\\avtotest\\untitled5\\build\\downloads\\1723971135354_11612_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false,
+      "password_manager_leak_detection": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1723971136.263][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1723971136.265][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1723971136.265][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1723971136.270][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-search-engine-choice-screen --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --unsafely-disable-devtools-self-xss-warnings --use-mock-keychain --user-data-dir="C:\WINDOWS\SystemTemp\scoped_dir3864_221965013" --window-size=1300,500 data:,
+[1723971137.266][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1723971137.279][INFO]: [8e3e4afbb2082c4d177324db37c08cc4] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "127.0.6533.120",
+      "chrome": {
+         "chromedriverVersion": "127.0.6533.119 (bdef6783a05f0b3f885591e7d2c7b2aec1a89dea-refs/branch-heads/6533@{#1999})",
+         "userDataDir": "C:\\WINDOWS\\SystemTemp\\scoped_dir3864_221965013"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55781"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8e3e4afbb2082c4d177324db37c08cc4"
+}
+[1723971137.609][INFO]: [8e3e4afbb2082c4d177324db37c08cc4] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1723971137.609][INFO]: [8e3e4afbb2082c4d177324db37c08cc4] RESPONSE SetTimeouts
+[1723971137.623][INFO]: [8e3e4afbb2082c4d177324db37c08cc4] COMMAND Navigate {
+   "url": "https://vmasshtabe.ru/"
+}
+[1723971137.623][INFO]: Waiting for pending navigations...
+[1723971137.626][INFO]: Done waiting for pending navigations. Status: ok
+[1723971137.742][INFO]: Waiting for pending navigations...
+[1723971138.363][INFO]: Done waiting for pending navigations. Status: ok
+[1723971138.364][INFO]: [8e3e4afbb2082c4d177324db37c08cc4] RESPONSE Navigate
+[1723971138.699][INFO]: [8e3e4afbb2082c4d177324db37c08cc4] COMMAND Quit {
+}
+[1723971138.953][INFO]: [8e3e4afbb2082c4d177324db37c08cc4] RESPONSE Quit

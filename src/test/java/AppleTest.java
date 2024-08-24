@@ -15,7 +15,7 @@ public class AppleTest extends BaseTest2 {
         SearchPages searchPages = new SearchPages();
         String href= searchPages.getHrefFrontFirstArticle();
         Assert.assertFalse(href.contains("5 причин поменять iPhone 13 на iPhone 15 и одна этого не делать"));
-        int a = 0;
+        int ab = 0;
 
     }
 

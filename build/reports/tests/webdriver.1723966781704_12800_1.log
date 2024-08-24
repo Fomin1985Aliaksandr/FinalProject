@@ -1,0 +1,16 @@
+1723966782418	geckodriver	INFO	Listening on 127.0.0.1:44457
+1723966782702	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "41244" "-- ... localhost:41244/,http://[::1]:41244/" "-no-remote" "-profile" "C:\\Users\\newus\\AppData\\Local\\Temp\\rust_mozprofileNmg4pX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723966783745	Marionette	INFO	Marionette enabled
+1723966783942	Marionette	INFO	Listening on port 53901
+WebDriver BiDi listening on ws://127.0.0.1:41244
+Read port: 53901
+1723966784328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:41244/devtools/browser/53a6429b-891e-4b8f-a0c6-def813a44eda
+1723966791640	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53961
+1723966791654	CDP	WARN	Support for the Chrome DevTools Protocol (CDP) in Firefox will be deprecated after Firefox 128 (ESR) and will be removed in a later release. CDP users should consider migrating to WebDriver BiDi. See https://bugzilla.mozilla.org/show_bug.cgi?id=1872254
+1723966791655	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1723966791821	Marionette	INFO	Stopped listening on port 53901
+Dynamically enable window occlusion 1
